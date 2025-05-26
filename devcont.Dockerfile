@@ -4,6 +4,12 @@ FROM alpine:3.21
 # Set non-interactive mode
 ENV DEBIAN_FRONTEND=noninteractive
 
+LABEL org.opencontainers.image.authors="Somak Roy<roysomak4@gmail.com>" \
+    org.opencontainers.image.description="Docker image for C/C++ development and code compilation" \
+    org.opencontainers.image.licenses="MIT" \
+    org.opencontainers.image.title="C/C++ Dev CI Container" \
+    org.opencontainers.image.source="https://github.com/roysomak4/cpp-dev-ci-container"
+
 # Install essential build tools and dev libs
 RUN apk add --no-cache \
     # gcc, g++, make, musl-dev
