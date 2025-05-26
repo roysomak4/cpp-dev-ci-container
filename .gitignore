@@ -1,0 +1,20 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.bak
+*.tmp
+
+# Env files (sensitive)
+*.env
+
+# Docker-specific
+*.tar

@@ -1,0 +1,21 @@
+# Git repository
+.git
+.gitignore
+
+# Editor/IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Env files
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
